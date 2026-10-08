@@ -1,0 +1,12 @@
+.koronil-progression [hidden] { display: none !important; }
+.koronil-progression .kp-consultation { flex: 1; display: flex; flex-direction: column; gap: 10px; min-height: 0; }
+.koronil-progression .kp-wishes { flex: 1; overflow: auto; min-height: 0; display: flex; flex-direction: column; gap: 10px; }
+.koronil-progression .kp-wishes .kp-table-wrap { flex: 0 0 auto; max-height: 240px; }
+.koronil-progression .kp-budgets { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
+.koronil-progression .kp-add { display: grid; grid-template-columns: 1fr 1.5fr 65px 65px 110px; gap: 8px; align-items: end; }
+.koronil-progression .kp-add button { grid-column: 1 / -1; }
+.koronil-progression .kp-wishes input[type=number] { min-height: 34px; width: 100%; }
+.koronil-progression .kp-wishes td input[type=number] { width: 65px; }
+.koronil-progression .kp-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.koronil-progression .kp-summary { font-weight: bold; }
+@media (max-width: 700px) { .koronil-progression .kp-add { grid-template-columns: 1fr 1fr; } }

@@ -1,0 +1,63 @@
+.koronil-progression.kp-player-v04 [hidden] { display: none !important; }
+.koronil-progression.kp-player-v04 .window-content { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.koronil-progression.kp-player-v04 .kp-content { flex: 1; overflow: hidden; min-height: 0; }
+.koronil-progression.kp-player-v04 .kp-player-panel { flex: 1; min-height: 0; overflow: auto; display: flex; flex-direction: column; gap: 8px; }
+.koronil-progression.kp-player-v04 .kp-player-panel > :not(.kp-table-wrap) { flex: 0 0 auto; }
+.koronil-progression.kp-player-v04 .kp-table-wrap { position: relative; overflow: hidden; display: flex; flex-direction: column; flex: 1 1 180px; min-height: 90px; }
+.koronil-progression.kp-player-v04 .kp-fixed-head { flex: 0 0 auto; overflow: hidden; background: var(--color-cool-5, #262c32); }
+.koronil-progression.kp-player-v04 .kp-scrolling-body { flex: 1; min-height: 0; overflow: auto; scrollbar-gutter: stable; overscroll-behavior: contain; }
+.koronil-progression.kp-player-v04 table { table-layout: fixed; border-collapse: separate; border-spacing: 0; margin: 0; }
+.koronil-progression.kp-player-v04 .kp-browser table { min-width: 780px; }
+.koronil-progression.kp-player-v04 .kp-allocations table { min-width: 950px; }
+.koronil-progression.kp-player-v04 thead, .koronil-progression.kp-player-v04 th { position: static !important; background: var(--color-cool-5, #262c32); color: white; }
+.koronil-progression.kp-player-v04 th, .koronil-progression.kp-player-v04 td { text-align: center; white-space: normal; overflow-wrap: anywhere; padding: 6px; }
+.koronil-progression.kp-player-v04 th:first-child, .koronil-progression.kp-player-v04 td:first-child { text-align: left; }
+.koronil-progression.kp-player-v04 input[type=checkbox] { width: 20px; height: 20px; margin: 0; }
+.koronil-progression.kp-player-v04 input[type=checkbox]:disabled { opacity: .35; cursor: not-allowed; }
+.koronil-progression.kp-player-v04 h3 { margin: 0; }
+.koronil-progression.kp-player-v04 .kp-selected-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.koronil-progression.kp-player-v04 [data-new-value] { font-weight: bold; }
+.koronil-progression.kp-player-v04 .kp-manager-title { font-size: 3.6rem; margin: 0 0 6px; border: 0; line-height: 1.05; overflow-wrap: anywhere; }
+.koronil-progression.kp-player-v04 .kp-resources { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.koronil-progression.kp-player-v04 .kp-resource { display: grid; grid-template-columns: auto minmax(0,1fr) minmax(0,1.2fr); align-items: center; column-gap: 10px; border: 1px solid var(--color-border-light-primary,#999); border-top: 2px solid #697f93; border-radius: 8px; padding: 7px 10px; background: var(--color-cool-5-25,rgba(90,110,130,.10)); min-width: 0; }
+.koronil-progression.kp-player-v04 .kp-resource[data-resource=tp] { border-top-color: #7d9263; }
+.koronil-progression.kp-player-v04 .kp-resource[data-resource=dp] { border-top-color: #a58465; }
+.koronil-progression.kp-player-v04 .kp-resource h2 { font-size: 1.25rem; margin: 0; border: 0; }
+.koronil-progression.kp-player-v04 .kp-resource label { font-size: .8rem; gap: 2px; }
+.koronil-progression.kp-player-v04 .kp-resource input { font-size: 1.15rem; height: 26px; text-align: center; width: 100%; min-width: 0; }
+.koronil-progression.kp-player-v04 .kp-resource input:disabled { opacity: 1; }
+.koronil-progression.kp-player-v04 .kp-resource-totals { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 0; }
+.koronil-progression.kp-player-v04 .kp-resource-totals span { display: block; font-size: .8rem; }
+.koronil-progression.kp-player-v04 .kp-resource-totals strong { display: block; font-size: 1.35rem; line-height: 1.1; }
+.koronil-progression.kp-player-v04 .kp-overdrawn { color: #e64d49; }
+.koronil-progression.kp-player-v04 .kp-summary { font-size: 2em; line-height: 1.2; }
+.koronil-progression.kp-player-v04 .kp-dm-update { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.koronil-progression.kp-player-v04 .kp-dm-update label { flex-direction: row; align-items: center; }
+.koronil-progression.kp-player-v04 .kp-screen-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+.koronil-progression.kp-player-v04 .kp-screen-nav [aria-pressed=true] { outline: 2px solid var(--kp-accent); }
+.koronil-progression.kp-player-v04 .kp-screen { display: flex; flex-direction: column; gap: 8px; flex: 1 1 auto; min-height: 0; overflow: auto; }
+.koronil-progression.kp-player-v04 .kp-player-panel > .kp-screen { flex: 1 1 auto; }
+.koronil-progression.kp-player-v04 .kp-screen > :not(.kp-table-wrap) { flex: 0 0 auto; }
+.koronil-progression.kp-player-v04 .kp-resources { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.koronil-progression.kp-player-v04 [data-screen=downtime] .kp-resource { max-width: 420px; }
+.koronil-progression.kp-player-v04 .kp-resource [data-season-bonus] { grid-column: 1 / -1; margin-top: 3px; font-size: .75rem; }
+.koronil-progression.kp-player-v04 .kp-training-settings { display: flex; gap: 16px; align-items: end; flex-wrap: wrap; }
+.koronil-progression.kp-player-v04 .kp-training-settings button { width: auto; }
+.koronil-progression.kp-player-v04 .kp-filters { grid-template-columns: minmax(120px,1fr) minmax(120px,1fr) minmax(180px,1.3fr) minmax(120px,1fr) max-content; gap: 10px; overflow-x: auto; }
+.koronil-progression.kp-player-v04 .kp-filters label { min-width: 0; }
+.koronil-progression.kp-player-v04 .kp-filters input[type=search], .koronil-progression.kp-player-v04 .kp-filters select { width: 100%; min-width: 0; }
+.koronil-progression.kp-player-v04 .kp-filters label:has([data-ticks-only]) { flex-direction: row; align-items: center; gap: 8px; white-space: nowrap; min-height: 34px; }
+.koronil-progression.kp-player-v04 .kp-training-settings input { width: 130px; }
+.koronil-progression.kp-player-v04 .kp-season-rewards { display: flex; flex-direction: column; gap: 10px; }
+.koronil-progression.kp-player-v04 .kp-season-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; border: 1px solid var(--kp-line); border-radius: 6px; padding: 10px; }
+.koronil-progression.kp-player-v04 .kp-season-row select { width: auto; flex: 1; min-width: 150px; }
+.koronil-progression.kp-player-v04 [data-markdown] { min-height: 160px; width: 100%; font: 1rem monospace; resize: vertical; }
+.koronil-progression.kp-player-v04 .kp-characteristics-table { overflow: auto; }
+.koronil-progression.kp-player-v04 .kp-characteristics-table table { min-width: 820px; }
+.koronil-progression.kp-player-v04 [data-force-ticks] { width: 100%; min-width: 0; }
+
+.koronil-progression.kp-player-v04 .kp-downtime-card { border:1px solid var(--kp-line); border-radius:6px; padding:12px; margin:10px 0; }
+.koronil-progression.kp-player-v04 .kp-downtime form { display:flex;flex-direction:column;gap:10px;margin:12px 0; }
+.koronil-progression.kp-player-v04 .kp-downtime textarea { width:100%;min-height:80px;resize:vertical; }
+.koronil-progression.kp-player-v04 .kp-dt-text { white-space:pre-wrap;overflow-wrap:anywhere; }
+.koronil-progression.kp-player-v04 .kp-downtime-card button { margin:4px; }
