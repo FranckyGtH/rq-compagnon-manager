@@ -1,0 +1,18 @@
+{
+  "name": "rq-compagnon-manager",
+  "version": "0.17.3",
+  "private": true,
+  "type": "module",
+  "description": "RuneQuest Glorantha DM and PC progression managers for Foundry VTT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test --test-timeout=12000 foundry/tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "adm-zip": "0.5.16",
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
