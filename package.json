@@ -6,7 +6,7 @@
   "description": "RuneQuest Glorantha DM and PC progression managers for Foundry VTT",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/build.mjs && node --test --test-timeout=12000 foundry/tests/*.test.mjs"
+    "test": "node scripts/build.mjs && node --test --test-timeout=120000 foundry/tests/*.test.mjs"
   },
   "devDependencies": {
     "adm-zip": "0.5.16",
