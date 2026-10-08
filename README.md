@@ -1,6 +1,10 @@
 # RQ compagnon Manager
 
-Applications DM et PC pour Foundry VTT et RuneQuest Glorantha. Le MJ attribue les XP, TP et DP ; le joueur prépare ses demandes ; le MJ contrôle et applique les changements.
+Applications DM et PC pour Foundry VTT et RuneQuest Glorantha dans le cadre de la Campagne Runequest NewGallo. 
+
+Avec les règles particulières de la campagne qui utilise des règles maisons évolution, l'outils permet de gérer de manière rapide cela.
+
+Le MJ attribue les XP, TP et DP ; le joueur prépare ses demandes ; le MJ contrôle et applique les changements.
 
 Configuration prise en charge : **Foundry VTT 14.367 / rqg 6.1.1**. Interface en anglais, documentation en français.
 
